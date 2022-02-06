@@ -26,7 +26,7 @@ class CharacterListFrg : Fragment(), CharacterClickListener {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_list, container, false)
+        binding =DataBindingUtil.inflate(inflater, R.layout.fragment_list, container, false)
 
         return binding.root
 
