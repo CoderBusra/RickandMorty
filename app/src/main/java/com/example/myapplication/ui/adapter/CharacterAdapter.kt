@@ -22,8 +22,7 @@ class CharacterAdapter(
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CharacterViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val view = DataBindingUtil.inflate<ListItemBinding>(
-            inflater,
-            R.layout.list_item, parent, false
+            inflater, R.layout.list_item, parent, false
         )
         return CharacterViewHolder(view)
 
